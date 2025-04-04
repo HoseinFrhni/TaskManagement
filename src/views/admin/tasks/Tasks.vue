@@ -106,9 +106,9 @@
             </a>
             <a
               @click="changeStatus(task.id, task.status)"
-              class="flex items-center bg-gray-700 text-white px-3 py-1 rounded-lg mx-1 hover:bg-gray-900 hover:cursor-default"
+              class="flex items-center bg-gray-700 text-white px-3 py-1 rounded-lg mx-1 hover:bg-gray-900 hover:cursor-pointer"
             >
-              <div class="hover:cursor-default"> تغییر وضعیت</div>
+              <div class="hover:cursor-pointer"> تغییر وضعیت</div>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                    stroke="currentColor" class="size-5 mr-1">
                 <path stroke-linecap="round" stroke-linejoin="round"
